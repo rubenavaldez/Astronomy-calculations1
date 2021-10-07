@@ -46,14 +46,34 @@ function LumonistyCalculator(starName, fluxString, parralax) {
     let distance = 1 / parralax
     return `${starName} has a luminosity of ${lumonisty.toFixed(2)}L(sun).
         It's distance from earth is ${distance.toFixed(2)}parsec
-        That is ${(distance * 3.26).toFixed(2)} light years \n`
+        That is ${(distance * 3.26).toFixed(2)} light years 
+        
+        Raw data
+        luminosity ${lumonisty}
+        distance ${distance}
+        lightyears ${distance * 3.26}
+        \n`
 
 
 }
 //console.log(LumonistyCalculator("Procyon", '1.84 *(10**-8)', 0.286))
-console.log(LumonistyCalculator("SIRIUS", '1.00 *(10**-7)', 0.379))
-console.log(LumonistyCalculator("ARCTURUS", '2.79 *(10**-8)', 0.089))
-console.log(LumonistyCalculator("VEGA", '2.59 *(10**-8)', 0.129))
-console.log(LumonistyCalculator("BETELGEUSE", '1.75 *(10**-8)', 0.0076))
-console.log(LumonistyCalculator("ALTAIR", '1.32 *(10**-8)', 0.194))
-console.log(LumonistyCalculator("FORMALHAUT", '9.07 *(10**-9)', 0.130))
+// console.log(LumonistyCalculator("SIRIUS", '1.00 *(10**-7)', 0.379))
+// console.log(LumonistyCalculator("ARCTURUS", '2.79 *(10**-8)', 0.089))
+// console.log(LumonistyCalculator("VEGA", '2.59 *(10**-8)', 0.129))
+// console.log(LumonistyCalculator("BETELGEUSE", '1.75 *(10**-8)', 0.0076))
+// console.log(LumonistyCalculator("ALTAIR", '1.32 *(10**-8)', 0.194))
+// console.log(LumonistyCalculator("FORMALHAUT", '9.07 *(10**-9)', 0.130))
+
+// console.log(LumonistyCalculator("Star 1", '4.19 *(10**-9)', 0.26))
+// console.log(LumonistyCalculator("Star 2", '6.12 *(10**-10)', 0.011))
+// console.log(LumonistyCalculator("Star 3", '1.91 *(10**-7)', 0.051))
+// console.log(LumonistyCalculator("Star 4", '3.67 *(10**-8)', 0.251))
+// console.log(LumonistyCalculator("Star 5", '7.42 *(10**-9)', 0.154))
+
+//  console.log(LumonistyCalculator("Aeryn", '8.2 *(10**-11)', 0.1429))
+//  console.log(LumonistyCalculator("Dargo", '4.1 *(10**-9)', 0.1429))
+//  console.log(LumonistyCalculator("Crichton", '6.7 *(10**-11)', 0.0098))
+ // console.log(LumonistyCalculator("Rygel", '7.84 *(10**-12)', 0.1429))
+console.log(LumonistyCalculator("Scorpius", '4.51 *(10**-13)', 0.0833))
+
+

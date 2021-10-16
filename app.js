@@ -74,6 +74,18 @@ function LumonistyCalculator(starName, fluxString, parralax) {
 //  console.log(LumonistyCalculator("Dargo", '4.1 *(10**-9)', 0.1429))
 //  console.log(LumonistyCalculator("Crichton", '6.7 *(10**-11)', 0.0098))
  // console.log(LumonistyCalculator("Rygel", '7.84 *(10**-12)', 0.1429))
-console.log(LumonistyCalculator("Scorpius", '4.51 *(10**-13)', 0.0833))
+//console.log(LumonistyCalculator("Scorpius", '4.51 *(10**-13)', 0.0833))
+//console.log(LumonistyCalculator("Zhaan", '3.39 *(10**-12)', 0.0098))
 
+const FrostLine= (lumonisty)=>{
+       let constant = 16 * Math.PI *(5.67 * (10 ** -8)) *(150**4) 
+       //console.log(constant)
+        return 131 * ((lumonisty/ constant) **.5)
 
+}
+// console.log(FrostLine(7.34))
+// console.log(FrostLine(1.49))
+ console.log(FrostLine(0.0122))
+ console.log(FrostLine(3.57))
+ console.log(FrostLine(0.822))
+ console.log(FrostLine(0.013))

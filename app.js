@@ -76,6 +76,10 @@ function LumonistyCalculator(starName, fluxString, parralax) {
  // console.log(LumonistyCalculator("Rygel", '7.84 *(10**-12)', 0.1429))
 //console.log(LumonistyCalculator("Scorpius", '4.51 *(10**-13)', 0.0833))
 //console.log(LumonistyCalculator("Zhaan", '3.39 *(10**-12)', 0.0098))
+// project star 
+console.log(LumonistyCalculator("Project-Star",'2.737576 *(10**-10)',0.090909))
+
+
 
 const FrostLine= (lumonisty)=>{
        let constant = 16 * Math.PI *(5.67 * (10 ** -8)) *(150**4) 
@@ -85,7 +89,15 @@ const FrostLine= (lumonisty)=>{
 }
 // console.log(FrostLine(7.34))
 // console.log(FrostLine(1.49))
- console.log(FrostLine(0.0122))
- console.log(FrostLine(3.57))
- console.log(FrostLine(0.822))
- console.log(FrostLine(0.013))
+//  console.log(FrostLine(0.0122))
+//  console.log(FrostLine(3.57))
+//  console.log(FrostLine(0.822))
+//  console.log(FrostLine(0.013))
+//  console.log(FrostLine(0.00896))
+//  console.log(FrostLine(0.364))
+//  console.log(FrostLine(0.589))
+//  console.log(FrostLine(2.9))
+// console.log(FrostLine(0.74))
+console.log(FrostLine(1.0344004023591848))
+
+console.log('mass', 3.5075725351583436 ** (1/(3.5)))
